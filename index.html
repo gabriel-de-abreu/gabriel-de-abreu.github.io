@@ -13,6 +13,21 @@
 <body>
   <app-root></app-root>
   <router-outlet></router-outlet>
-<script src="runtime.a8ef3a8272419c2e2c66.js" defer></script><script src="polyfills-es5.1a966fd6b02eee688f9f.js" nomodule defer></script><script src="polyfills.190e967231bd2597763d.js" defer></script><script src="scripts.f609ed3c353dab6e2ddb.js" defer></script><script src="main.fe8080af053d1468e3a4.js" defer></script></body>
+  <script>
+    var initialHeight = 0;
+
+    initialHeight = document.documentElement.clientHeight;
+
+    window.onresize = () => {
+      let currentHeight = document.documentElement.clientHeight;
+      let body = document.querySelector('body');
+      if (initialHeight > currentHeight) {
+        body.setAttribute('style', `height:${initialHeight}px;`);
+      } else {
+        body.setAttribute('style', `height:${currentHeight}px;`);
+      }
+    }
+  </script>
+<script src="runtime.a8ef3a8272419c2e2c66.js" defer></script><script src="polyfills-es5.db36da5e3f57608d2464.js" nomodule defer></script><script src="polyfills.7c161295a8353bf4d32a.js" defer></script><script src="scripts.f609ed3c353dab6e2ddb.js" defer></script><script src="main.fe8080af053d1468e3a4.js" defer></script></body>
 
 </html>
