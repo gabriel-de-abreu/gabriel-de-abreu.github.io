@@ -1,5 +1,5 @@
 @angular-devkit/build-angular
-MIT
+MIT 
 The MIT License
 
 Copyright (c) 2017 Google, Inc.
@@ -64,8 +64,8 @@ THE SOFTWARE.
 lato-font
 (MIT AND OFL-1.1)
 
-regenerator-runtime
-MIT
+regenerator-runtime 
+MI T
 MIT License
 
 Copyright (c) 2014-present, Facebook, Inc.
