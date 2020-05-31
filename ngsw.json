@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1590898695429,
+  "timestamp": 1590898930418,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -8,6 +8,13 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/assets/imgs/header-img.webp",
+        "/assets/imgs/maps.webp",
+        "/assets/imgs/services-img.webp",
+        "/assets/imgs/tech-img.webp",
+        "/assets/imgs/tech.webp",
+        "/assets/svg-icons/github.svg",
+        "/assets/svg-icons/linkedin.svg",
         "/favicon.ico",
         "/index.html",
         "/main.7e8921efbad2bb54a5f5.js",
@@ -25,13 +32,6 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/imgs/header-img.webp",
-        "/assets/imgs/maps.webp",
-        "/assets/imgs/services-img.webp",
-        "/assets/imgs/tech-img.webp",
-        "/assets/imgs/tech.webp",
-        "/assets/svg-icons/github.svg",
-        "/assets/svg-icons/linkedin.svg",
         "/header-img.59260bcb5e08523e3462.webp",
         "/lato-light.7244318390cc4d36aac4.woff2",
         "/lato-light.90301aa07d780a098122.woff",
