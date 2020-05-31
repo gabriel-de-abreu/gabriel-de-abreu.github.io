@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1590904504646,
+  "timestamp": 1590905380348,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -8,6 +8,8 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/assets/svg-icons/github.svg",
+        "/assets/svg-icons/linkedin.svg",
         "/contact.d042044b1877f1f0a15c.webp",
         "/favicon.ico",
         "/header-img.59260bcb5e08523e3462.webp",
@@ -40,6 +42,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/assets/svg-icons/github.svg": "7b63ff989a13d2329cdd1a04a464f788ce1717b4",
+    "/assets/svg-icons/linkedin.svg": "0c70b118f3b20169350a63b24f3abf9e25283356",
     "/contact.d042044b1877f1f0a15c.webp": "cb0c96c9a671cf7fcb49dc4ddf743723bc3d8044",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/header-img.59260bcb5e08523e3462.webp": "3edab6498a2f391057f251a0bba8a913e7a51f3b",
