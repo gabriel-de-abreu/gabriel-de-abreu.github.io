@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Gabriel de Abreu</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1">
+  <meta name="description" content="Gabriel de Abreu - Engenheiro de Computação - Analista Desenvolvedor">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+<link rel="stylesheet" href="styles.a1b7ef65217e182a34d8.css"></head>
+
+<body>
+  <app-root></app-root>
+  <router-outlet></router-outlet>
+  <script>
+    // Mantém o height fixo em dispositivos quando o teclado é ativado
+    var initialHeight = 0;
+
+    let deviceWidth = document.documentElement.clientWidth;
+    initialHeight = document.documentElement.clientHeight;
+
+    if (deviceWidth < 600) {
+      window.onresize = () => {
+        let currentHeight = document.documentElement.clientHeight;
+        let body = document.querySelector('body');
+        if (initialHeight > currentHeight) {
+          body.setAttribute('style', `height:${initialHeight}px;`);
+        } else {
+          body.setAttribute('style', `height:${currentHeight}px;`);
+        }
+      }
+    }
+
+  </script>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.458556a34b891ea32398.js" defer></script><script src="polyfills-es5.d642b4791476fd76bc00.js" nomodule defer></script><script src="polyfills.357677b4de875a8bb361.js" defer></script><script src="scripts.f609ed3c353dab6e2ddb.js" defer></script><script src="main.3a585b5bb3b050ef91f7.js" defer></script></body>
+
+</html>
