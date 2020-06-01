@@ -20,15 +20,13 @@
     let deviceWidth = document.documentElement.clientWidth;
     initialHeight = document.documentElement.clientHeight;
 
-    if (deviceWidth < 415) {
-      window.onresize = () => {
-        let currentHeight = document.documentElement.clientHeight;
-        let body = document.querySelector('body');
-        if (initialHeight > currentHeight) {
-          body.setAttribute('style', `height:${initialHeight}px;`);
-        } else {
-          body.setAttribute('style', `height:${currentHeight}px;`);
-        }
+    window.onresize = () => {
+      let currentHeight = document.documentElement.clientHeight;
+      let body = document.querySelector('body');
+      if (initialHeight > currentHeight) {
+        body.setAttribute('style', `height:${initialHeight}px;`);
+      } else {
+        body.setAttribute('style', `height:${currentHeight}px;`);
       }
     }
 
