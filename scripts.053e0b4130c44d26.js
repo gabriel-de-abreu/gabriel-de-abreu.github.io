@@ -1,0 +1,1 @@
+var initialHeight=0;initialHeight=document.documentElement.clientHeight,window.onresize=()=>{let currentHeight=document.documentElement.clientHeight;document.querySelector("body").setAttribute("style",initialHeight>currentHeight?`height:${initialHeight}px;`:`height:${currentHeight}px;`)};
